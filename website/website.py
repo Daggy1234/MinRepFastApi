@@ -6,4 +6,4 @@ website: FastAPI = FastAPI()
 async def test_f(req):
 	pass
 
-print("done")
+print("done with main")
