@@ -49,4 +49,4 @@ jobs:
         run: poetry install
 
       - name: Run type checking
-        run: pyright --lib --verifytypes website --ignoreexternal
+        run: pyright website --ignoreexternal
