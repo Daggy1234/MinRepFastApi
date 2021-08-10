@@ -1,0 +1,1 @@
+# Pyright min rep example
