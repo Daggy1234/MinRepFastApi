@@ -48,9 +48,5 @@ jobs:
         if: steps.cached-dependecies.outputs.cache-hit != 'true'
         run: poetry install
 
-      - name: Flake8
-        run: |
-          poetry run flake8 website --count --show-source --statistics
-      
       - name: Run type checking
         run: pyright --lib --verifytypes website --ignoreexternal
