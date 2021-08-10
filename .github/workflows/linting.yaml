@@ -50,7 +50,7 @@ jobs:
 
       - name: Flake8
         run: |
-          poetry run flake8 app --count --show-source --statistics
+          poetry run flake8 website --count --show-source --statistics
       
       - name: Run type checking
         run: pyright --lib --verifytypes website --ignoreexternal
